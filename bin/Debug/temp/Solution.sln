@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{{solutionGUID}}") = "BLL", "BLL\BLL.csproj", "{{bllGUID}}"
+EndProject
+Project("{{solutionGUID}}") = "DAL", "DAL\DAL.csproj", "{{sqlserverdalGUID}}"
+EndProject
+Project("{{solutionGUID}}") = "Model", "Model\Model.csproj", "{{modelGUID}}"
+EndProject
+Project("{{solutionGUID}}") = "DBUtility", "DBUtility\DBUtility.csproj", "{{dbutilityGUID}}"
+EndProject
+{ui project}
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{{bllGUID}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{{bllGUID}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{{bllGUID}}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{{bllGUID}}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{{bllGUID}}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{{bllGUID}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{{bllGUID}}.Release|Any CPU.Build.0 = Release|Any CPU
+		{{bllGUID}}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{{bllGUID}}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{{bllGUID}}.Release|x86.ActiveCfg = Release|Any CPU
+		{{sqlserverdalGUID}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{{sqlserverdalGUID}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{{sqlserverdalGUID}}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{{sqlserverdalGUID}}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{{sqlserverdalGUID}}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{{sqlserverdalGUID}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{{sqlserverdalGUID}}.Release|Any CPU.Build.0 = Release|Any CPU
+		{{sqlserverdalGUID}}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{{sqlserverdalGUID}}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{{sqlserverdalGUID}}.Release|x86.ActiveCfg = Release|Any CPU
+		{{modelGUID}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{{modelGUID}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{{modelGUID}}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{{modelGUID}}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{{modelGUID}}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{{modelGUID}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{{modelGUID}}.Release|Any CPU.Build.0 = Release|Any CPU
+		{{modelGUID}}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{{modelGUID}}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{{modelGUID}}.Release|x86.ActiveCfg = Release|Any CPU
+		{{dbutilityGUID}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{{dbutilityGUID}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{{dbutilityGUID}}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{{dbutilityGUID}}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{{dbutilityGUID}}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{{dbutilityGUID}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{{dbutilityGUID}}.Release|Any CPU.Build.0 = Release|Any CPU
+		{{dbutilityGUID}}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{{dbutilityGUID}}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{{dbutilityGUID}}.Release|x86.ActiveCfg = Release|Any CPU
+		{{idalGUID}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{{idalGUID}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{{idalGUID}}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{{idalGUID}}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{{idalGUID}}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{{idalGUID}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{{idalGUID}}.Release|Any CPU.Build.0 = Release|Any CPU
+		{{idalGUID}}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{{idalGUID}}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{{idalGUID}}.Release|x86.ActiveCfg = Release|Any CPU
+		{{dalfactoryGUID}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{{dalfactoryGUID}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{{dalfactoryGUID}}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{{dalfactoryGUID}}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{{dalfactoryGUID}}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{{dalfactoryGUID}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{{dalfactoryGUID}}.Release|Any CPU.Build.0 = Release|Any CPU
+		{{dalfactoryGUID}}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{{dalfactoryGUID}}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{{dalfactoryGUID}}.Release|x86.ActiveCfg = Release|Any CPU
+		{{uiGUID}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{{uiGUID}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{{uiGUID}}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{{uiGUID}}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{{uiGUID}}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{{uiGUID}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{{uiGUID}}.Release|Any CPU.Build.0 = Release|Any CPU
+		{{uiGUID}}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{{uiGUID}}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{{uiGUID}}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
