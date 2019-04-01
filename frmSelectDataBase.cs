@@ -44,7 +44,7 @@ namespace code
                 string.Format("server={0};database=master;uid={1};pwd={2}", serverName, loginName, loginPwd) :
                 string.Format("server={0};database=master;Integrated Security=True", serverName);
             //绑定数据库
-            string sql = "select name from sysdatabases where dbid<>1";
+            string sql = "select name from sysdatabases where dbid>6";
             SqlDataReader red = SQLHelper.ExecuteReader(connString, CommandType.Text, sql);
             while (red.Read())
             {
